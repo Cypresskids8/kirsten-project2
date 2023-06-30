@@ -1,0 +1,75 @@
+body {
+    background-color: aquamarine;
+
+}
+h1{
+    font-family: cursive;
+}
+h2{
+    color:blue
+}
+body{
+    border-bottom:dashed violet 15px;   
+}
+body{
+    border-top:dashed violet 15px;
+}
+body{
+    border-left: dashed violet 15px;
+}
+body{
+    border-right:dashed violet 15px ;
+}
+h1{
+    background-color: aqua;
+}
+h1:hover{
+    background-color: blueviolet;
+}
+#spark{
+    width: 500px
+}
+.cool{
+    font-size: 30px;
+}
+canvas{
+    background-color: violet; 
+    width: 200px;
+    height:150px;
+}
+
+#can1{
+    background-color: blue;
+    animation: moveRight 5s linear 50
+}
+#can3{
+    background-color: aqua;
+    animation: moveLeft 5s linear 50
+}
+
+div{
+  height: 500px;
+  display: flex;
+}
+body{
+    background-image:url(cool.webp) ;
+}
+@keyframes moveRight{
+    0% {
+      transform: translate(0px) rotate(0deg);
+    }
+    50% {
+        transform: translate(1300px) rotate(180deg);
+      }
+
+}
+
+@keyframes moveLeft{
+    0% {
+      transform: translate(0px) rotate(0deg);
+    }
+    50% {
+        transform: translate(-1000px) rotate(180deg);
+      }
+
+}
